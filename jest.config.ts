@@ -1,7 +1,7 @@
 export default {
   testEnvironment: 'jsdom',
   roots: ['<rootDir>/tests'],
-  testMatch: ['**/?(*.)+(spec|test).ts?(x)'],
+  testMatch: ['**/?(*.)+(spec|test).(ts|tsx|js|jsx)'],
   moduleNameMapper: {
     '\\.(css|less|scss|sass)$': 'identity-obj-proxy',
     '\\.(gif|ttf|eot|svg|png|jpg|jpeg)$': '<rootDir>/tests/__mocks__/fileMock.js',
