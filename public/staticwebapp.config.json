@@ -1,19 +1,6 @@
 {
   "navigationFallback": {
-    "rewrite": "/index.html"
-  },
-  "mimeTypes": {
-    ".json": "application/json",
-    ".wasm": "application/wasm"
-  },
-  "routes": [
-    {
-      "route": "/assets/*",
-      "statusCode": 200
-    },
-    {
-      "route": "*.{svg,png,jpg,jpeg,gif,ico,webp,css,js}",
-      "statusCode": 200
-    }
-  ]
+    "rewrite": "/index.html",
+    "exclude": ["/images/*", "/css/*", "/fonts/*", "/js/*", "/assets/*", "*.{svg,png,jpg,jpeg,gif,ico,webp}"]
+  }
 }
