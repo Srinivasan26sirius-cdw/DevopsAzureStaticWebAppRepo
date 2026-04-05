@@ -96,5 +96,5 @@ jobs:
           elif [ "${GITHUB_REF}" = "refs/heads/develop" ]; then
             echo "Deployed to development Azure Static Web App"
           else
-            echo "No deployment for this branch: ${GITHUB_REF} !!!"
+            echo "No deployment for this branch: ${GITHUB_REF} !!!!!"
           fi
